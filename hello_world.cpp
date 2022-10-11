@@ -1,11 +1,15 @@
 #include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
 #include <string>
+using std::string;
 int main()
 {
-    std::cout << "Hello World!" << '\n';
-    std::string name;
-    std::cout << "What is your name? \n";
-    std::cin >> name;
-    std::cout << "Hello "<< name << "!" << '\n';
+    cout << "Hello World!" << endl;
+    string name;
+    cout << "What is your name?" << endl;
+    cin >> name;
+    cout << "Hello "<< name << "!" << endl;
     return 0; 
 }
